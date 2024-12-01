@@ -1,0 +1,32 @@
+nav img {
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.navbar{
+    background-color: rgb(157, 132, 189) !important;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.boton-menu{
+    border: 2px solid rgb(112, 72, 163);
+    border-radius: 5px;
+    color:#38302e ;
+
+}
+
+.boton-menu:hover{
+    background-color: rgb(112, 72, 163);
+    color: white;
+    border: 2px solid rgb(112, 72, 163) ;
+
+}
+
+nav .marca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    margin-right: 10px;
+}

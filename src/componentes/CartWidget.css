@@ -1,0 +1,13 @@
+nav .carrito img{
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+}
+
+nav .numero {
+    color: white;
+    background-color: red;
+    padding: 5px;
+    border-radius: 50%;
+}
+
