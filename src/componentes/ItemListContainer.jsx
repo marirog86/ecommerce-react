@@ -1,10 +1,11 @@
 
 import "./ItemListContainer.css"
 
-const ItemListContainer = () => {
+const ItemListContainer = ({greetings}) => {
+
     return (
         <div className="saludo">
-            <h1>Bienvenido al mágico mundo de Karamello. Pastelería y panadería artesanal. Animate a deleitar tu paladar probando todas nuestras delicias</h1>
+            <h1>{greetings}</h1>
         </div>
     
     )

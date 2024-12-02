@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Navbar/>
-      <ItemListContainer/>
+      <ItemListContainer greetings={"Bienvenido al mágico mundo de Karamello. Pastelería y panadería artesanal. Animate a deleitar tu paladar probando todas nuestras delicias"}/>
     </div>
   )
 }
