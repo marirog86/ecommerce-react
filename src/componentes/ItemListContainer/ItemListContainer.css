@@ -11,3 +11,16 @@
     margin-right: 200px;
     color:white;
 }
+
+.itemListContainer{
+    padding: 50px;
+}
+
+.itemList{
+    display: flex;   
+}
+
+.item{
+    margin: 10px;
+    background-color: azure;
+}

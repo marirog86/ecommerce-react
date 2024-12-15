@@ -1,5 +1,5 @@
-import CartWidget from './CartWidget'
-import logoKaramello from './img/cup-cake(1).png'
+import CartWidget from '../CartWidget/CartWidget'
+import logoKaramello from '../img/cup-cake(1).png'
 import './Navbar.css'
 
 const Navbar = () => {

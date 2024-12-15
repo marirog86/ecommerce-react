@@ -1,5 +1,5 @@
 import "./CartWidget.css"
-import imgCarrito from './img/shopping-bag.png'
+import imgCarrito from '../img/shopping-bag.png'
 
 
 const CartWidget = ()=> {
