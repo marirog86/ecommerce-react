@@ -2,7 +2,7 @@ const products = [
     {
         id: "fjk976",
         nombre: "Cheesecake",
-        descripcion: "Cheesecake de frutilla",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 500,
         imagen: "/public/img/cheesecake.jpg",
         categoria: "frutales"
@@ -11,7 +11,7 @@ const products = [
     {
         id: "rth542",
         nombre: "Tarta de Manzana",
-        descripcion: "Tarta de manzana y canela",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 500,
         imagen: "/public/img/tarta_manzana.jpg",
         categoria: "frutales"
@@ -20,7 +20,7 @@ const products = [
     {
         id: "sbm316",
         nombre: "Tarta Frutal",
-        descripcion: "Tarta con frutas y crema pastelera",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/tarta_frutal.jpg",
         categoria: "frutales"
@@ -28,7 +28,7 @@ const products = [
     {
         id: "apg038",
         nombre: "Torta de chocolate",
-        descripcion: "Torta de chocolate",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/torta_choco1.jpg",
         categoria: "chocolate"
@@ -37,7 +37,7 @@ const products = [
     {
         id: "xdb822",
         nombre: "Brownie",
-        descripcion: "Brownie de chocolate con dulce de leche y merengue",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/brownie.jpg",
         categoria: "chocolate"
@@ -46,7 +46,7 @@ const products = [
     {
         id: "ukd721",
         nombre: "Mini tarteletas",
-        descripcion: "Mini tarteletas surtidas x10",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 800,
         imagen: "/public/img/mini_tartas.jpg",
         categoria: "minis"
@@ -55,7 +55,7 @@ const products = [
     {
         id: "lpw298",
         nombre: "Sandwich de Pollo",
-        descripcion: "Sandwich de pollo",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 300,
         imagen: "/public/img/sandwich_pollo.jpg",
         categoria: "salado"
@@ -64,7 +64,7 @@ const products = [
     {
         id: "mws106",
         nombre: "Macarons",
-        descripcion: "Macarons variados caja x6",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 450,
         imagen: "/public/img/macarons2.jpg",
         categoria: "minis"
@@ -73,7 +73,7 @@ const products = [
     {
         id: "tfh155",
         nombre: "Pizza peperoni",
-        descripcion: "Pizza 30cm de diametro sabor peperoni",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/pizza_peperoni.jpg",
         categoria: "salado"
@@ -82,7 +82,7 @@ const products = [
     {
         id: "wng688",
         nombre: "Hamburguesa Triple",
-        descripcion: "Hamburguesa triple con queso cheddar y cebolla caramelizada",
+        descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 450,
         imagen: "/public/img/hamburguesa_triple.jpg",
         categoria: "salado"

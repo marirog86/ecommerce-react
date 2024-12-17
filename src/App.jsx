@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route path='/' element={<ItemListContainer greetings={"Bienvenido al mágico mundo de Karamello. Pastelería y panadería artesanal. Animate a deleitar tu paladar probando todas nuestras delicias"}/>} />
           <Route path='/category/:idCategory' element={<ItemListContainer greetings={"Bienvenido al mágico mundo de Karamello. Pastelería y panadería artesanal. Animate a deleitar tu paladar probando todas nuestras delicias"}/>} />
+          <Route path='/detail/:idProduct' element={<ItemDetailContainer />} />
         </Routes>
       </BrowserRouter>
       

@@ -22,6 +22,8 @@
     align-items: center;
     margin: 20px;
     background-color: azure;
+    color:  rgb(44, 21, 75);
+    text-decoration: none;
 }
 
 .item img{
