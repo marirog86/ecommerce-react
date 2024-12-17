@@ -3,6 +3,33 @@ nav img {
     height: 50px !important;
 }
 
+.category{
+    color:  rgb(227, 221, 235);
+    text-decoration: none;
+    padding:20px;
+}
+
+.nombre{
+    color:  rgb(227, 221, 235);
+    text-decoration: none;
+    
+}
+
+.nombre h1{
+    font-size: 24px;
+}
+
+.category-active{
+    color: rgb(91, 55, 137) ;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar-brand{
+    color: rgb(227, 221, 235);
+    font-weight: bold;
+}
+
 .navbar{
     background-color: rgb(157, 132, 189) !important;
     padding: 20px;
@@ -12,7 +39,7 @@ nav img {
 .boton-menu{
     border: 2px solid rgb(112, 72, 163);
     border-radius: 5px;
-    color:#38302e ;
+    color: rgb(227, 221, 235) ;
 
 }
 
@@ -25,8 +52,9 @@ nav img {
 
 nav .marca{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 15px;
-    margin-right: 10px;
+    
+    margin-right: 50px;
 }

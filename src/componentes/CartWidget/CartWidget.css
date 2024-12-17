@@ -6,8 +6,10 @@ nav .carrito img{
 
 nav .numero {
     color: white;
+    font-size: 16px;
+    font-weight: bold;
     background-color: red;
-    padding: 5px;
+    padding-left: 8px ;
+    padding-right: 8px;
     border-radius: 50%;
 }
-

@@ -1,26 +1,29 @@
-.saludo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.itemListContainer h2{
+    font-size: 20px;
     text-align: center;
     background-color: rgb(177, 168, 190);
-    border: 1px solid rgb(75, 37, 124) ;
     border-radius: 5px;
-    padding: 30px;
-    margin-left: 200px;
-    margin-right: 200px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
     color:white;
 }
 
-.itemListContainer{
-    padding: 50px;
-}
-
 .itemList{
-    display: flex;   
+    display: flex;  
+    flex-wrap: wrap; 
+    justify-content:center;
+    padding-top: 50px;
 }
 
 .item{
-    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
     background-color: azure;
+}
+
+.item img{
+    width: 250px;
 }
