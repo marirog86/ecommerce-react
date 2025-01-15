@@ -16,7 +16,7 @@
     padding-top: 50px;
 }
 
-.item{
+/*.item{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -28,4 +28,42 @@
 
 .item img{
     width: 250px;
+}*/
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: azure;
+    color:  rgb(44, 21, 75);
+    text-decoration: none;
+    width:250px;
+    border: 1px solid rgba(85, 85, 85, 0.59);
+    border-radius: 15px;
+}
+
+.item p{
+    margin:5px;
+}
+
+
+.item img{
+    width: 80%;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+.boton {
+    background-color:rgb(44, 21, 75);
+    color: rgb(203, 178, 238);
+    padding: 5px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: rgb(203, 178, 238);
+    color: rgb(44, 21, 75);
 }

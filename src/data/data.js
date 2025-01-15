@@ -5,7 +5,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 500,
         imagen: "/public/img/cheesecake.jpg",
-        categoria: "frutales"
+        categoria: "frutales",
+        stock: 5
     },
 
     {
@@ -14,7 +15,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 500,
         imagen: "/public/img/tarta_manzana.jpg",
-        categoria: "frutales"
+        categoria: "frutales",
+        stock: 4
     },
 
     {
@@ -23,7 +25,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/tarta_frutal.jpg",
-        categoria: "frutales"
+        categoria: "frutales",
+        stock: 3
     },
     {
         id: "apg038",
@@ -31,7 +34,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/torta_choco1.jpg",
-        categoria: "chocolate"
+        categoria: "chocolate",
+        stock: 8
     },
 
     {
@@ -40,7 +44,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/brownie.jpg",
-        categoria: "chocolate"
+        categoria: "chocolate",
+        stock: 6
     },
 
     {
@@ -49,7 +54,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 800,
         imagen: "/public/img/mini_tartas.jpg",
-        categoria: "minis"
+        categoria: "minis",
+        stock: 2
     },
 
     {
@@ -58,7 +64,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 300,
         imagen: "/public/img/sandwich_pollo.jpg",
-        categoria: "salado"
+        categoria: "salado",
+        stock: 6
     },
 
     {
@@ -67,7 +74,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 450,
         imagen: "/public/img/macarons2.jpg",
-        categoria: "minis"
+        categoria: "minis",
+        stock: 5
     },
 
     {
@@ -76,7 +84,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 350,
         imagen: "/public/img/pizza_peperoni.jpg",
-        categoria: "salado"
+        categoria: "salado",
+        stock: 3
     },
 
     {
@@ -85,7 +94,8 @@ const products = [
         descripcion: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate at, rem iste quia magnam assumenda. Consequatur voluptas beatae ex dolorum dolor sapiente, ipsa est nobis voluptate, odit odio harum quae ",
         precio: 450,
         imagen: "/public/img/hamburguesa_triple.jpg",
-        categoria: "salado"
+        categoria: "salado",
+        stock: 4
     },
 ]
 
