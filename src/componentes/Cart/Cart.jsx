@@ -32,6 +32,7 @@ return (
             
         }
         <h3>Total: $ {totalPrice()}</h3>
+        <Link to="/checkout"><button>Continuar con la compra</button></Link>
         <button onClick={deleteCart}>Vaciar carrito</button>
     </div>
 
