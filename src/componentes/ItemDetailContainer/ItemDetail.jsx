@@ -16,6 +16,11 @@ const ItemDetail = ({product}) => {
         setShowItemCount(false)
     }
 
+    // Verificar si el producto está cargado
+    if (!product || !product.nombre) {
+        return <div>Cargando...</div>;
+    }
+    
     return (
     <div className='ItemDetail'>
         <img src={product.imagen} alt='' />

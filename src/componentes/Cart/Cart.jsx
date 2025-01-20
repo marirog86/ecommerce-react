@@ -20,7 +20,7 @@ return (
     <div className='cart'>
         {
             cart.map((productCart)=>(
-                    <div className='articulo'>
+                    <div key={productCart.id} className='articulo'>
                         <img src={productCart.imagen} alt="" />
                         <p>{productCart.nombre}</p>
                         <p>Precio unitario: ${productCart.precio}</p>

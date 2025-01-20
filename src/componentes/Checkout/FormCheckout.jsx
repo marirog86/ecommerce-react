@@ -9,6 +9,8 @@ const FormCheckout = ( {dataForm, handleChangeDataForm, handleSubmitForm}) => {
                 <input type="number" value={dataForm.phone} name="phone" onChange={handleChangeDataForm}/>
                 <label>Correo Electronico</label>
                 <input type="email" value={dataForm.email} name="email" onChange={handleChangeDataForm}/>
+                <label>Confirmar correo electronico</label>
+                <input type="email" value={dataForm.confirmEmail} name="confirmEmail" onChange={handleChangeDataForm}/>
                 <button type="submit">Enviar Orden</button>
         </form>
     )

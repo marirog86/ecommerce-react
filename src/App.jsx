@@ -7,6 +7,7 @@ import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailCon
 import { CartProvider } from './context/CartContext'
 import Cart from './componentes/Cart/Cart'
 import Checkout from './componentes/Checkout/Checkout'
+import { ToastContainer } from 'react-toastify'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter>
           <CartProvider>
           <Navbar/>
+          <ToastContainer theme="colored" />
           <Routes>
             <Route path='/' element={<ItemListContainer greetings={"Bienvenido al mágico mundo de Karamello. Pastelería y panadería artesanal. Animate a deleitar tu paladar probando todas nuestras delicias"}/>} />
             <Route path='/category/:idCategory' element={<ItemListContainer greetings={"Bienvenido al mágico mundo de Karamello. Pastelería y panadería artesanal. Animate a deleitar tu paladar probando todas nuestras delicias"}/>} />
