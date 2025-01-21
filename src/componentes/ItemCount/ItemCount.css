@@ -15,7 +15,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /*border: 1px solid rgba(85, 85, 85, 0.59);*/
     border-radius:10px;
     margin-top: 20px;
 }

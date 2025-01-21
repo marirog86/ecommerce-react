@@ -1,0 +1,50 @@
+.checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(85, 85, 85, 0.59);
+    width: 400px;
+    margin-left: 550px;
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(157, 129, 183);
+}
+
+.checkout input {
+    margin: 10px;
+    border-radius: 5px;
+}
+.checkout label{
+    color: azure;
+}
+
+.checkout button{
+    background-color: rgb(112, 68, 171);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    color: azure;
+}
+
+.checkout button:hover{
+    background-color: rgb(203, 178, 238);
+    color: rgb(34, 9, 58);
+}
+
+.ordenOk{
+    text-align: center;
+    margin-left: 350px;
+    background-color: rgb(167, 136, 197);
+    margin-top: 50px;
+    color: azure;
+    border: 2px solid rgba(85, 85, 85, 0.59);
+    border-radius: 5px;
+    padding: 20px;
+    width: 800px;
+}
+
+.ordenOk h2{
+    margin-bottom: 20px;
+}

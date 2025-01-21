@@ -91,3 +91,26 @@
     background-color: rgb(203, 178, 238);
     color: rgb(44, 21, 75);
 }
+
+.notFound {
+    text-align: center;
+    padding: 20px;
+}
+
+
+.notFound p{
+    padding: 5px;
+}
+
+.notFound button{
+    background-color: rgb(112, 68, 171);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    color: azure;   
+}
+
+.notFound button:hover{
+    background-color: rgb(203, 178, 238);
+    color: rgb(34, 9, 58);
+}

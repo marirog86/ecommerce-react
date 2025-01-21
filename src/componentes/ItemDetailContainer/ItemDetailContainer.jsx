@@ -35,10 +35,10 @@ const ItemDetailContainer = () => {
 
     if (error) {
         return (
-            <div style={{ textAlign: 'center', padding: '2rem' }}>
-                <h2>Producto no encontrado</h2>
+            <div className='notFound' >
+                <h2>Producto no encontrado 👽</h2>
                 <p>Lo sentimos, no pudimos encontrar el producto que estás buscando.</p>
-                <Link to="/">Volver al inicio</Link>
+                <Link to="/"><button>Volver al inicio</button></Link>
             </div>
         )
     }

@@ -4,6 +4,7 @@ import { CartContext } from "../../context/CartContext"
 import { Timestamp, collection, addDoc } from "firebase/firestore"
 import db from "../../db/db.js"
 import {  toast } from 'react-toastify'
+import "./Checkout.css"
 
 const Checkout = () => {
     const [dataForm, setDataForm]=useState({
@@ -71,9 +72,9 @@ const Checkout = () => {
         <div>
             {
                 orderId ? (
-                    <div>
-                        <h2>Orden enviada correctamente. Su numero de orden es:</h2>
-                        <h3>{orderId}</h3>
+                    <div className="ordenOk">
+                        <h2>Compra realizada correctamente🎉🎉🎉 </h2>
+                        <h3>Su número de orden es: {orderId}</h3>
                     </div>
                 ):(
                     <FormCheckout 

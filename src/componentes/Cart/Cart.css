@@ -22,6 +22,78 @@
     margin: 20px;
 }
 
-h3{
+.cart h3{
     margin: 20px;
+    border: 2px solid rgba(85, 85, 85, 0.59);
+    width: auto;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
 }
+
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.emptyCart h2{
+    margin: 50px;
+}
+
+.emptyCart button{
+    background-color:rgb(44, 21, 75);
+    color: rgb(203, 178, 238);
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+}
+
+.emptyCart button:hover{
+    background-color: rgb(203, 178, 238);
+    color: rgb(44, 21, 75);
+}
+
+
+
+.botonEliminar{
+    background-color: white;
+    border-radius: 5px;
+}
+
+.botonEliminar:hover{
+    background-color:rgb(203, 178, 238) ;
+}
+
+.botonesCart{
+    display: flex;
+    justify-content: center;
+}
+
+.botonesCart button{
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 12px;
+    font-size: 16px;
+    color: azure;
+}
+
+.botonCont{
+    background-color: rgb(157, 132, 189);
+}
+
+.botonCont:hover{
+    background-color: rgb(203, 178, 238);
+}
+
+.botonVaciar{
+    background-color: rgb(209, 99, 99);
+}
+
+.botonVaciar:hover{
+    background-color: rgb(223, 156, 156);
+}
+
