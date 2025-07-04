@@ -1,7 +1,5 @@
 # ecommerce - Karamello - React JS 
 
-<img src="https://www.patterns.dev/img/reactjs/react-logo@3x.svg" height="50"> 
-
 ##### `Desarrollado por Marina Rogova`
 
 ## Descripción
